@@ -1,0 +1,30 @@
+{
+  "name": "twittertrendingnews",
+  "version": "1.0.0",
+  "description": "A RESTful API that reports on, and documents the latest trends",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkoda/TwitterTrendingNews.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkoda/TwitterTrendingNews/issues"
+  },
+  "homepage": "https://github.com/nkoda/TwitterTrendingNews#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "openai": "^3.1.0",
+    "twitter-api-client": "^1.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
